@@ -47,5 +47,4 @@ public class TokenService {
             throw new RuntimeException("Token Inválido");
         }
     }
-    
 }

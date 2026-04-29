@@ -18,8 +18,8 @@ import io.swagger.v3.oas.annotations.servers.Server;
         version = "v1",
         description = "API para genenciamento de dados recebidos de sensores diversos",
         contact = @Contact(
-            name = "Marco Carvalho",
-            email = "marco.carvalho@cps.sp.gov.br"
+            name = "Ana Luiza",
+            email = "fatecwendy@gmail.com"
         ),
         license = @License(
             name = "MIT",
