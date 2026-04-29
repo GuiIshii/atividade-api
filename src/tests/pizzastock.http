@@ -1,10 +1,7 @@
 @url = http://localhost:8080
-@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJGaWxtZXMgQVBJIiwic3ViIjoiYWRtaW4iLCJleHAiOjE3Nzc0NDY0OTN9.TBzoiw89QCAEt8BwWmvWqIOR2yCv92lDdoNNeX9NPc8
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJGaWxtZXMgQVBJIiwic3ViIjoiYWRtaW4iLCJleHAiOjE3Nzc0NTE3OTN9.hJ2Gx9qKGbghcFmlL6OJCjaU_n5tij_HVzpvTrWEjYo
 
-### =====================
-### PIZZARIAS
-### =====================
-
+### 
 POST {{url}}/pizzarias
 Authorization: Bearer {{token}}
 Content-Type: application/json
@@ -38,10 +35,8 @@ Content-Type: application/json
 DELETE {{url}}/pizzarias/1
 Authorization: Bearer {{token}}
 
-### =====================
-### INGREDIENTES
-### =====================
 
+###
 POST {{url}}/ingredientes
 Authorization: Bearer {{token}}
 Content-Type: application/json
